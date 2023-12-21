@@ -1,0 +1,15 @@
+<xs:schema xmlns:tns="http://www.examples.com/wsdl/HelloService.wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://www.examples.com/wsdl/HelloService.wsdl">
+ <link type="text/css" id="dark-mode" rel="stylesheet" href=""/>
+ <xs:element name="sayHello" type="tns:sayHello"/>
+ <xs:element name="sayHelloResponse" type="tns:sayHelloResponse"/>
+ <xs:complexType name="sayHello">
+  <xs:sequence>
+   <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+  </xs:sequence>
+ </xs:complexType>
+ <xs:complexType name="sayHelloResponse">
+  <xs:sequence>
+   <xs:element name="return" type="xs:string" minOccurs="0"/>
+  </xs:sequence>
+ </xs:complexType>
+</xs:schema>

@@ -1,0 +1,42 @@
+{
+  "result": {
+    "input": {
+      "benchmark": {
+        "id": "4",
+        "benchmarkName": "Public_AR_Current",
+        "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+        "isDefault": false
+      },
+      "address": {
+        "address": "1450 Pennsylvania Avenue NW, Washington, DC 20230, United States"
+      }
+    },
+    "addressMatches": [
+      {
+        "matchedAddress": "1450 PENNSYLVANIA AVE NW, WASHINGTON, DC, 20004",
+        "coordinates": {
+          "x": 10,
+          "y": 20
+        },
+        "tigerLine": {
+          "tigerLineId": "76225888",
+          "side": "L"
+        },
+        "addressComponents": {
+          "fromAddress": "1400",
+          "toAddress": "1498",
+          "preQualifier": "",
+          "preDirection": "",
+          "preType": "",
+          "streetName": "PENNSYLVANIA",
+          "suffixType": "AVE",
+          "suffixDirection": "NW",
+          "suffixQualifier": "",
+          "city": "WASHINGTON",
+          "state": "DC",
+          "zip": "20004"
+        }
+      }
+    ]
+  }
+}
